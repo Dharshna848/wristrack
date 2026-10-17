@@ -6,7 +6,7 @@ from pathlib import Path
 UDP_IP = "0.0.0.0"
 UDP_PORT = 3333
 
-CSV_FILE = Path("wrist_angles.csv")
+CSV_FILE = Path("C:/Users/bskar/wrist_angles.csv")
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_PORT))
@@ -48,15 +48,11 @@ try:
 
             release = parsed.get("release", False)
             status = parsed.get("status", "UNKNOWN")
-            angle = parsed.get("angle", None)
-            pitch_peak = parsed.get("pitchPeak", None)
 
             print(
                 f"From {addr[0]}: "
                 f"release={release}, "
-                f"status={status}, "
-                f"angle={angle} deg, "
-                f"pitchPeak={pitch_peak}"
+                f"status={status}"
             )
 
             # A ball is counted from the Arduino's
@@ -66,15 +62,12 @@ try:
 
                 writer.writerow([
                     ball_number,
-                    angle,
-                    status,
-                    pitch_peak
-                ])
+                    status                ])
                 csv_file.flush()
 
                 print(
                     f"  -> BALL {ball_number} SAVED: "
-                    f"{status}, {angle} degrees"
+                    f"{status}"
                 )
 
         except Exception as e:
