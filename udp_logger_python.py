@@ -1,3 +1,8 @@
+'''
+This is the Python program to receive the bowling delivery status via UDP
+Tracks number of balls delivered so far
+Stores the number of ball and status to csv file
+'''
 import socket
 import json
 import csv
@@ -6,6 +11,7 @@ from pathlib import Path
 UDP_IP = "0.0.0.0"
 UDP_PORT = 3333
 
+# Path for the CSV file to store bowling delivery status
 CSV_FILE = Path("C:/Users/bskar/wrist_angles.csv")
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -21,7 +27,7 @@ if not file_exists or CSV_FILE.stat().st_size == 0:
     writer.writerow(["ball_number", "angle", "status", "pitch_peak"])
     csv_file.flush()
 
-# Recover the last ball number if the CSV already contains data
+# Get the last ball number if the CSV already contains data
 ball_number = 0
 
 if CSV_FILE.exists():
@@ -34,8 +40,7 @@ if CSV_FILE.exists():
                 pass
 
 print(f"Listening for UDP packets on port {UDP_PORT}...")
-print(f"Saving ball data to: {CSV_FILE.resolve()}")
-print("Ball number increases ONLY when Arduino sends release=true.")
+print(f"Saving ball delivery data to: {CSV_FILE.resolve()}")
 print("Press Ctrl+C to stop.\n")
 
 try:
@@ -56,7 +61,7 @@ try:
             )
 
             # A ball is counted from the Arduino's
-            # peak-pitch/reversal release event.
+            # peak-pitch/reversal release event. Ball number get incremented by 1 when release = True
             if release:
                 ball_number += 1
 

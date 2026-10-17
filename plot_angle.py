@@ -1,3 +1,8 @@
+'''
+This is the Python program to get the data from csv file
+Plots the graph for delivery status vs number of balls
+'''
+
 import csv
 import matplotlib.pyplot as plt
 from pathlib import Path
