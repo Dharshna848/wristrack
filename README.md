@@ -5,11 +5,12 @@
  WrisTrack is an engineering project designed to measure wrist-angle variation during cricket bowling using wearable sensors, Arduino and Python.
 
 **2. Project Documentation**
-
-  The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation
+```text
+  The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation.
 
   Folder     : Docs
   Sub Folder : N/A
+```
 
   **Files**
   WrisTrack.pdf   - For Viewing
@@ -55,3 +56,4 @@
   **Files**
   
   Recording_demo_results.mp4 - Recording for Wristrack project demo
+```
