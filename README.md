@@ -8,7 +8,7 @@
 
   The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation.  
 
-  Folder     : Docs      
+  Folder     : Docs/        
 
   **Files**  
   
@@ -18,9 +18,11 @@
 
 **3.Source Code**  
 
+  The source code contains the Arduino and Python programs used for sensor data acquisition, communication, and data logging.
+
   **a) Arduino**  
   
-   Folder     : Source_code/Arduino    
+   Folder     : Source_code/Arduino/      
      
   **Files** 
   
@@ -28,7 +30,7 @@
   
   **b) Python**  
   
-   Folder     : Source_code/Python  
+   Folder     : Source_code/Python/    
    
   **Files**  
   
@@ -36,9 +38,11 @@
    
   ii) Plot_graph.py        - Python program to plot the ball deliveries  
 
-**4. Results**  
+**4. Results** 
 
-  Folder     : Results  
+  This section contains the recorded outputs generated during project testing, including Arduino sensor output, Python logger results, and graphical visualization of the collected data. Detailed test cases and analysis are available in the project documentation.
+
+  Folder     : Results/    
 
   **Files**  
    
@@ -50,7 +54,9 @@
 
 **5. Demonstration**  
 
-  Folder     : Demo  
+  This section contains a video demonstration of the WrisTrack prototype, showing the system in operation and the recording of measurement results.
+
+  Folder     : Demo/    
 
   **Files**  
   
