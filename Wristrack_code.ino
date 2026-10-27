@@ -185,7 +185,7 @@ void autoCalibrateNeutral()
   delay(500);
   updateSensors();
 
-  // Save the forearm quaternion ONCE. Do not update this during bowling.
+  // Saving the forearm quaternion only once.
   neutralQuat = normalizeQuaternion(armQuat);
   calibratedNeutral = true;
 
