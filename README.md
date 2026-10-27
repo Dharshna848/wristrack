@@ -11,3 +11,5 @@ arduino_output_final.txt - Results from Arduino while connected through USB
 wrist_deviation_detector_python.txt - Results from Python Udp logger
 
 wrist_deviation_chart.png - Results from Graph plotter
+
+Recording_demo_results.mp4 - Recording for Wristrack project demo
