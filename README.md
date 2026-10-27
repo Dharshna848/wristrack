@@ -1,27 +1,57 @@
-WrisTrack
+**WrisTrack**
 
-1. Project Overview
-WrisTrack is an engineering project designed to measure wrist-angle variation during cricket bowling using wearable sensors, Arduino and Python.
+**1. Project Overview**
+   
+ WrisTrack is an engineering project designed to measure wrist-angle variation during cricket bowling using wearable sensors, Arduino and Python.
 
-2. Project Documentation
+**2. Project Documentation**
 
-The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation
+  The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation
 
-Docs/WrisTrack.pdf   - For Viewing
-Docs/WrisTrack.docx  - Editable Version
+  Folder     : Docs
+  Sub Folder : N/A
 
-3.Source Code
+  **Files**
+  WrisTrack.pdf   - For Viewing
+  WrisTrack.docx  - Editable Version
 
-Source_code/Arduion/Wristrack_code.ino  - Arduino code
-Source_code/Python/udplogger.py         - Python program to receive the status of ball deliveries and store it in a csv file
-Source_code/Python/Plot_graph.py        - Python program to plot the ball deliveries
+**3.Source Code**
 
-4. Results
+  **a) Arduino**
+  
+  Folder     : Source_code
+  Sub Folder : Arduino  
+  
+  **Files**
+  
+  Wristrack_code.ino   - Arduino code
+  
+  **b) Python**
+  
+  Folder     : Source_code
+  Sub Folder : Python 
 
-Results/arduino_output_final.txt             - Results from Arduino while connected through USB
-Results/wrist_deviation_detector_python.txt  - Results from Python Udp logger
-Results/wrist_deviation_chart.png            - Results from Graph plotter
+  **Files**
+  
+  udplogger.py         - Python program to receive the status of ball deliveries and store it in a csv file
+  Plot_graph.py        - Python program to plot the ball deliveries
+
+**4. Results**
+
+  Folder     : Results
+  Sub Folder : N/A
+
+  **Files**
+  
+  arduino_output_final.txt             - Results from Arduino while connected through USB
+  wrist_deviation_detector_python.txt  - Results from Python Udp logger
+  wrist_deviation_chart.png            - Results from Graph plotter
 
 5. Demonstration
 
-Demo/Recording_demo_results.mp4 - Recording for Wristrack project demo
+  Folder     : Demo
+  Sub Folder : N/A
+
+  **Files**
+  
+  Recording_demo_results.mp4 - Recording for Wristrack project demo
