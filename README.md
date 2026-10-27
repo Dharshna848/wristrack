@@ -8,8 +8,7 @@
 
   The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation.  
 
-  Folder     : Docs  
-  Sub Folder : N/A  
+  Folder     : Docs      
 
   **Files**  
   
@@ -21,18 +20,16 @@
 
   **a) Arduino**  
   
-   Folder     : Source_code  
-   Sub Folder : Arduino    
-  
+   Folder     : Source_code/Arduino    
+     
   **Files** 
   
   i) Wristrack_code.ino   - Arduino code  
   
   **b) Python**  
   
-   Folder     : Source_code  
-   Sub Folder : Python   
-
+   Folder     : Source_code/Python  
+   
   **Files**  
   
    i) udplogger.py         - Python program to receive the status of ball deliveries and store it in a csv file  
@@ -42,7 +39,6 @@
 **4. Results**  
 
   Folder     : Results  
-  Sub Folder : N/A  
 
   **Files**  
    
@@ -55,7 +51,6 @@
 **5. Demonstration**  
 
   Folder     : Demo  
-  Sub Folder : N/A  
 
   **Files**  
   
