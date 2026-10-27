@@ -6,7 +6,8 @@
 
 **2. Project Documentation**
 ```text
-  The following documents contain the complete project details, including the problem statement, design, development, setup, testing, results, challenges and limitation.
+  The following documents contain the complete project details, including the problem statement, design,
+  development, setup, testing, results, challenges and limitation.
 
   Folder     : Docs
   Sub Folder : N/A
