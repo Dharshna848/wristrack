@@ -1,0 +1,36 @@
+C:\Users\bskar\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/bskar/PycharmProjects/pythonProject1/udp_logger_python.py
+Listening for ESP32 messages on UDP port 3333...
+Saving delivery data to: C:\Users\bskar\wrist_status.csv
+Waiting for ESP32 calibration status.
+Press Ctrl+C to stop.
+
+
+================================================
+CALIBRATION STARTED
+Please hold the forearm steady.
+================================================
+
+
+================================================
+CALIBRATION COMPLETE
+READY TO BOWL!
+================================================
+
+From 10.0.0.202: release=True, status=NEUTRAL
+  -> BALL 11 SAVED: NEUTRAL, angle=111.359
+From 10.0.0.202: release=True, status=NEUTRAL
+  -> BALL 12 SAVED: NEUTRAL, angle=108.7
+From 10.0.0.202: release=True, status=WRISTDEVIATION
+  -> BALL 13 SAVED: WRISTDEVIATION, angle=118.995
+From 10.0.0.202: release=True, status=WRISTDEVIATION
+  -> BALL 14 SAVED: WRISTDEVIATION, angle=113.93
+From 10.0.0.202: release=True, status=NEUTRAL
+  -> BALL 15 SAVED: NEUTRAL, angle=101.872
+From 10.0.0.202: release=True, status=NEUTRAL
+  -> BALL 16 SAVED: NEUTRAL, angle=120.349
+From 10.0.0.202: release=True, status=WRISTDEVIATION
+  -> BALL 17 SAVED: WRISTDEVIATION, angle=65.415
+From 10.0.0.202: release=True, status=WRISTDEVIATION
+  -> BALL 18 SAVED: WRISTDEVIATION, angle=154.918
+From 10.0.0.202: release=True, status=WRISTDEVIATION
+  -> BALL 19 SAVED: WRISTDEVIATION, angle=91.391
