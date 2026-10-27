@@ -12,8 +12,10 @@
   Sub Folder : N/A  
 
   **Files**  
-     i) WrisTrack.pdf   - For Viewing  
-    ii) WrisTrack.docx  - Editable Version  
+  
+   i) WrisTrack.pdf   - For Viewing  
+  
+  ii) WrisTrack.docx  - Editable Version  
 
 **3.Source Code**  
 
@@ -22,7 +24,8 @@
    Folder     : Source_code  
    Sub Folder : Arduino    
   
-  **Files**  
+  **Files** 
+  
   i) Wristrack_code.ino   - Arduino code  
   
   **b) Python**  
@@ -31,11 +34,10 @@
    Sub Folder : Python   
 
   **Files**  
-   i) udplogger.py         - Python program to receive the  
-                             status of ball deliveries and  
-                             store it in a csv file  
-  ii) Plot_graph.py        - Python program to plot the  
-                             ball deliveries  
+  
+   i) udplogger.py         - Python program to receive the status of ball deliveries and store it in a csv file  
+   
+  ii) Plot_graph.py        - Python program to plot the ball deliveries  
 
 **4. Results**  
 
@@ -43,11 +45,12 @@
   Sub Folder : N/A  
 
   **Files**  
-    i) arduino_output_final.txt             - Results from Arduino 
-                                              while connected through USB  
-   ii) wrist_deviation_detector_python.txt  - Results from Python 
-                                              Udp logger  
-  iii) wrist_deviation_chart.png            - Results from Graph plotter  
+   
+   i) arduino_output_final.txt             - Results from Arduino while connected through USB  
+    
+  ii) wrist_deviation_detector_python.txt  - Results from Python Udp logger  
+   
+ iii) wrist_deviation_chart.png            - Results from Graph plotter  
 
 **5. Demonstration**  
 
@@ -55,5 +58,6 @@
   Sub Folder : N/A  
 
   **Files**  
-   i) Recording_demo_results.mp4 - Recording for Wristrack project demo  
+  
+  i) Recording_demo_results.mp4 - Recording for Wristrack project demo  
 
