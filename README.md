@@ -19,21 +19,19 @@
 
   **a) Arduino**  
   
-    Folder     : Source_code  
-    Sub Folder : Arduino    
+   Folder     : Source_code  
+   Sub Folder : Arduino    
   
   **Files**  
-  
-   i) Wristrack_code.ino   - Arduino code  
+  i) Wristrack_code.ino   - Arduino code  
   
   **b) Python**  
   
-    Folder     : Source_code  
-    Sub Folder : Python   
+   Folder     : Source_code  
+   Sub Folder : Python   
 
   **Files**  
-  
-  i)  udplogger.py         - Python program to receive the status of ball deliveries and store it in a csv file  
+   i)  udplogger.py         - Python program to receive the status of ball deliveries and store it in a csv file  
   ii) Plot_graph.py        - Python program to plot the ball deliveries  
 
 **4. Results**  
