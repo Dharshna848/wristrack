@@ -60,5 +60,5 @@
 
   **Files**  
   
-  i) Recording_demo_results.mp4 - Recording for Wristrack project demo  
+  i) Demo_Recording.mp4 - Recording for WrisTrack project demo. Download to view  
 
