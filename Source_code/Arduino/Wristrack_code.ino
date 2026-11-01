@@ -62,7 +62,7 @@ float maxY = 0;
 float maxZ = 0;
 float maxRotationAngle = 0;
 
-// Wi-Fi credentials: replace these placeholders with your own values.
+// Wi-Fi credentials masked
 const char* ssid = "<wifiusername>";
 const char* password = "<password>";
 
